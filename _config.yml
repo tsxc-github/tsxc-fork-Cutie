@@ -216,7 +216,7 @@ meting:
   enable: true
   server: netease
   type: playlist
-  id: 8524070964
+  id: 8699526404
 
 
 
@@ -296,7 +296,7 @@ imgcard_h: 30em
 # Jsdelivr 提供的加速 CDN，可选。
 # 对本主题中的 css、js、img、custom 文件夹中的静态资源进行加速。
 # https://cdn.jsdelivr.net/gh/[you]/[yourBlog]
-in_cdn: 
+in_cdn: https://cdn.jsdelivr.net/gh/tsxc-github/tsxc-github.github.io
 
 # 自我简述
 short_des: "An AFO whker."
