@@ -77,19 +77,19 @@ comments:
     enable: true
     # 把它拆成这些选项，是为了支持 Pjax。
     src: https://giscus.app/client.js
-    repo: 
-    repoid: 
-    category: 
-    categoryid: 
-    mapping: pathname
-    strict: 0
+    repo: tsxc-github/blog-Discussions
+    repoid: R_kgDOKM0SwQ
+    category: Announcements
+    categoryid: DIC_kwDOKM0Swc4CY8N2
+    mapping: title
+    strict: 1
     reactions_enabled: 1
     emit_metadata: 0
     input_position: top
     theme: light
     night_theme: dark # night 配色下的主题
     lang: zh-CN
-    loading: lazy
+    # loading: lazy
     crossorigin: anonymous
 
 
