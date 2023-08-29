@@ -131,7 +131,7 @@ site_info:
                  # root：只会在博客首页显示；
                  # all：在所有页面显示。
   text: <i class='fa fa-volume-up'></i> 本博客更改评论系统为 Giscus。 # "<i class='fa fa-volume-up'></i> 欢迎来到 Yurchiu 的博客！希望我们能相互交流，共同进步～"
-  type: warning  # 可以取这些值：danger | warning | info | success。
+  type: info  # 可以取这些值：danger | warning | info | success。
 
 
 
@@ -149,7 +149,7 @@ copyright:       # 文末版权信息。
                  # all: 在每个页面末尾显示。
                  # post: 只在每个博文末尾显示。
                 
-  statement: '本博客中所有原创文章除特别声明外，均允许规范转载，转载请注明出处。所有非原创文章，按照原作者要求转载。'
+  statement: '本博客中所有文章除特别声明外，均不允许转载。此外的的转载文章，请按原作者要求转载。'
 
 
 
@@ -183,7 +183,7 @@ excerpt:
 # 位于工具栏。
 
 tag_cloud:
-  enable: true         # 是否启用
+  enable: false         # 是否启用
   color:               # 颜色渐变范围
     from: "#fff"
     to: "#fff"
@@ -223,7 +223,7 @@ meting:
 # XI 头像
 
 avatar:
-  url: /img/new-avatar.jpg
+  url: /img/avatar.png
   # 头像动效，可以取这些值：bounce | revolve | none，默认值是 none。
   effect: revolve
 
@@ -235,7 +235,7 @@ avatar:
 colored_eggs:
   # 看板娘（？）
   # 可以取这些值：santa | natsuki | none，默认值是 none。
-  type: natsuki
+  type: none
   width: 120px                       # 人物大小。
   time: 0.55s                        # 动画时间，仅对 natsuki 有用。
   bezier: cubic-bezier(0, 0, 0, 1)   # 贝塞尔曲线，仅对 natsuki 有用。
@@ -258,7 +258,7 @@ sidebar_num: true
 toolbar_info: true
 
 # 工具栏是否显示第三栏
-toolbar_third: true
+toolbar_third: false
 
 
 
@@ -273,7 +273,7 @@ toolbar_enable: true
 #
 # 博客默认配色
 # 可以取这些值：std | white | night | none，默认值是 std。 "none" 非常特殊。
-color_schemes: white
+color_schemes: night
 
 # 博客默认特殊效果
 # 可以取这些值：none | grayscale | invert | blur，默认值是 none。
@@ -281,14 +281,14 @@ special: none
 
 # 拉伸页面
 # 将博客界面两端的空隙填充
-stretch: false
+stretch: true
 
 # 在博客的“设置”页面中，存在一些本配置文件中没有的设置。
 
 
 
 # 你的 GitHub 用户名，用于某些链接
-github_name: yz-hs
+github_name: tsxc-github
 
 # 图片背景卡片的高度默认值
 imgcard_h: 30em
