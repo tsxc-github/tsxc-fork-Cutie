@@ -223,7 +223,7 @@ meting:
 # XI 头像
 
 avatar:
-  url: /img/avatar.png
+  url: /img/avatar.jpg
   # 头像动效，可以取这些值：bounce | revolve | none，默认值是 none。
   effect: revolve
 
