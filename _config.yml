@@ -296,7 +296,7 @@ imgcard_h: 30em
 # Jsdelivr 提供的加速 CDN，可选。
 # 对本主题中的 css、js、img、custom 文件夹中的静态资源进行加速。
 # https://cdn.jsdelivr.net/gh/[you]/[yourBlog]
-in_cdn: https://cdn.jsdelivr.net/gh/tsxc-github/tsxc-github.github.io
+# in_cdn: https://cdn.jsdelivr.net/gh/tsxc-github/tsxc-github.github.io
 
 # 自我简述
 short_des: "AFO，新的开始"
@@ -348,23 +348,41 @@ tag_plugins:
 # 本主题使用的 CDN。
 out_cdn:
   css:
-    katex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.6/katex.min.css
-    gitalk: https://unpkg.com/gitalk/dist/gitalk.css
+    # katex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.6/katex.min.css
+    katex: /cdn/katex.min.css
+    # gitalk: https://unpkg.com/gitalk/dist/gitalk.css
+    gitalk: /cdn/gitalk.css
     googlefont: https://fonts.googleapis.com
-    highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css
+    # highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css
+    highlight: /cdn/vs2015.min.css
     fontawesome: https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css
-    bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css
-    aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
-    tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css
+    # fontawesome: /cdn/font-awesome.css
+    # bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css
+    bootstrap: /cdn/bootstrap.min.css
+    # aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+    aplayer: /cdn/APlayer.min.css
+    # tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css
+    tocbot: /cdn/tocbot.css
   js:
-    jquery: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
-    anime: https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js
-    pjax: https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
-    gitalk: https://unpkg.com/gitalk/dist/gitalk.min.js
-    highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js
-    sweetalert2: https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.17/sweetalert2.all.min.js
-    sketch: https://cdn.staticfile.org/sketch.js/1.0/sketch.min.js
-    bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js
-    aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
-    meting: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
-    tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js
+    # jquery: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
+    jquery: /cdn/jquery.min.js
+    # anime: https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js
+    anime: /cdn/anime.min.js
+    # pjax: https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
+    pjax: /cdn/jquery.pjax.min.js
+    # gitalk: https://unpkg.com/gitalk/dist/gitalk.min.js
+    gitalk: /cdn/gitalk.min.js
+    # highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js
+    highlight: /cdn/highlight.min.js
+    # sweetalert2: https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.17/sweetalert2.all.min.js
+    sweetalert2: /cdn/sweetalert2.all.min.js
+    # sketch: https://cdn.staticfile.org/sketch.js/1.0/sketch.min.js
+    sketch: /cdn/sketch.min.js
+    # bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js
+    bootstrap: /cdn/bootstrap.bundle.min.js
+    # aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+    aplayer: /cdn/APlayer.min.js
+    # meting: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
+    meting: /cdn/Meting.min.js
+    # tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js
+    tocbot: /cdn/tocbot.min.js
