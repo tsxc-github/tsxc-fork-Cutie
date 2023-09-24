@@ -57,7 +57,7 @@ comments:
   # 从这里得到你的 uid。
   # https://livere.com/insight/myCode
   livere:
-    enable: true
+    enable: false
     uid: MTAyMC81ODk5Ny8zNTQ1OQ==
 
   # Gitalk 评论系统
@@ -74,7 +74,7 @@ comments:
   # Giscus 评论系统
   # https://giscus.app/zh-CN
   giscus:
-    enable: false
+    enable: true
     # 把它拆成这些选项，是为了支持 Pjax。
     src: https://giscus.app/client.js
     repo: tsxc-github/blog-Discussions
