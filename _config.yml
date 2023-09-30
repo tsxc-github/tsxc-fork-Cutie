@@ -98,7 +98,7 @@ comments:
 # 根据设定的屏幕宽度（单位都是 px）改变显示方式。
 
 responsive:
-  width_1: 1170
+  width_1: 1650
   # 低于此数值，使文章区宽度减小。
   width_2: 990
   # 低于此数值，工具栏会被置于文章区下方。
@@ -119,8 +119,8 @@ sidebar_footer_margin: 8
 
 # 设定前两个阶段工具栏的宽度。
 toolbar_width:
-  width_1: 240
-  width_2: 240
+  width_1: 220
+  width_2: 220
 
 
 
@@ -281,7 +281,7 @@ special: none
 
 # 拉伸页面
 # 将博客界面两端的空隙填充
-stretch: true
+stretch: false
 
 # 在博客的“设置”页面中，存在一些本配置文件中没有的设置。
 
