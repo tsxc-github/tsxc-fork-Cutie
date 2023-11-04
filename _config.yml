@@ -93,7 +93,7 @@ comments:
     crossorigin: anonymous
   waline:
     enable: false
-    serverurl: 
+    serverurl: http://4-6.tpddns.cn:8360
 
 
 # IV 自适应
