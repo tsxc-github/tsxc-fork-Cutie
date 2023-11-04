@@ -92,7 +92,7 @@ comments:
     # loading: lazy
     crossorigin: anonymous
   waline:
-    enable: false
+    enable: true
     serverurl: http://4-6.tpddns.cn:8360
 
 

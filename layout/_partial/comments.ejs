@@ -66,16 +66,17 @@
     </script>
 
   <% }else if(theme.comments.waline.enable) { %>
-    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
     <div id="waline"></div>
-    <script type="module">
-      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
-      init({
-        el: '#waline',
-        serverURL: '<%-theme.comments.waline.serverurl%>',
-      });
-    </script>
-
+      <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+      <!-- Meta 图标 (可选) -->
+      <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline-meta.css"/>
+      <script type="module">
+        import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+        init({
+          el: '#waline',
+          serverURL: '<%-theme.comments.waline.serverurl%>',
+        });
+      </script>
   <% }else{ %>
 
     <%- _p('Comments.Unopen',config.author) %>
