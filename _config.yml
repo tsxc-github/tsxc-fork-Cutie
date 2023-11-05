@@ -93,7 +93,7 @@ comments:
     crossorigin: anonymous
   waline:
     enable: true
-    serverurl: http://4-6.tpddns.cn:8360
+    serverurl: http://tsxc-home.dns.army:8360
 
 
 # IV 自适应
