@@ -77,6 +77,15 @@
           serverURL: '<%-theme.comments.waline.serverurl%>',
         });
       </script>
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+      init({
+        el: '#waline',
+        serverURL: '<%-theme.comments.waline.serverurl%>',
+        reaction: <%-theme.comments.waline.reaction%> ,
+      });
+    </script>
+
   <% }else{ %>
 
     <%- _p('Comments.Unopen',config.author) %>
