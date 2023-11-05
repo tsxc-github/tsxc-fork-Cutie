@@ -16,11 +16,11 @@
 Menu:
   Home: index.html
   Archives: archives/index.html
-  Tags: tags/index.html
-  Categories: categories/index.html
-  Mood: somepage/mood/index.html
+  # Tags: tags/index.html
+  # Categories: categories/index.html
+  # Mood: somepage/mood/index.html
   About: somepage/about/index.html
-  Message_board: somepage/chat/index.html
+  # Message_board: somepage/chat/index.html
   Links: somepage/link/index.html
   Settings: somepage/settings/index.html
 
@@ -58,7 +58,7 @@ comments:
   # https://livere.com/insight/myCode
   livere:
     enable: false
-    uid: 
+    uid: MTAyMC81ODk5Ny8zNTQ1OQ==
 
   # Gitalk 评论系统
   # https://github.com/gitalk/gitalk
@@ -77,21 +77,27 @@ comments:
     enable: false
     # 把它拆成这些选项，是为了支持 Pjax。
     src: https://giscus.app/client.js
-    repo: 
-    repoid: 
-    category: 
-    categoryid: 
-    mapping: pathname
-    strict: 0
+    repo: tsxc-github/blog-Discussions
+    repoid: R_kgDOKM0SwQ
+    category: Announcements
+    categoryid: DIC_kwDOKM0Swc4CY8N2
+    mapping: title
+    strict: 1
     reactions_enabled: 1
     emit_metadata: 0
     input_position: top
     theme: light
     night_theme: dark # night 配色下的主题
     lang: zh-CN
-    loading: lazy
+    # loading: lazy
     crossorigin: anonymous
   waline:
+    enable: false
+    serverurl: 
+    reaction: false #文章反应，参见https://waline.js.org/guide/features/reaction.html
+
+Pageview_Counter: #浏览量功能
+  waline: # 参见https://waline.js.org/guide/features/pageview.html
     enable: false
     serverurl: 
 
@@ -101,7 +107,7 @@ comments:
 # 根据设定的屏幕宽度（单位都是 px）改变显示方式。
 
 responsive:
-  width_1: 1170
+  width_1: 1650
   # 低于此数值，使文章区宽度减小。
   width_2: 990
   # 低于此数值，工具栏会被置于文章区下方。
@@ -122,8 +128,8 @@ sidebar_footer_margin: 8
 
 # 设定前两个阶段工具栏的宽度。
 toolbar_width:
-  width_1: 240
-  width_2: 240
+  width_1: 220
+  width_2: 220
 
 
 
@@ -134,7 +140,7 @@ site_info:
                  # root：只会在博客首页显示；
                  # all：在所有页面显示。
   text: <i class='fa fa-volume-up'></i> 本博客更改评论系统为 Giscus。 # "<i class='fa fa-volume-up'></i> 欢迎来到 Yurchiu 的博客！希望我们能相互交流，共同进步～"
-  type: warning  # 可以取这些值：danger | warning | info | success。
+  type: info  # 可以取这些值：danger | warning | info | success。
 
 
 
@@ -152,7 +158,7 @@ copyright:       # 文末版权信息。
                  # all: 在每个页面末尾显示。
                  # post: 只在每个博文末尾显示。
                 
-  statement: '本博客中所有原创文章除特别声明外，均允许规范转载，转载请注明出处。所有非原创文章，按照原作者要求转载。'
+  statement: '本博客中所有文章除特别声明外，均不允许转载。此外的的转载文章，请按原作者要求转载。'
 
 
 
@@ -186,7 +192,7 @@ excerpt:
 # 位于工具栏。
 
 tag_cloud:
-  enable: true         # 是否启用
+  enable: false         # 是否启用
   color:               # 颜色渐变范围
     from: "#fff"
     to: "#fff"
@@ -219,14 +225,14 @@ meting:
   enable: true
   server: netease
   type: playlist
-  id: 8524070964
+  id: 8699526404
 
 
 
 # XI 头像
 
 avatar:
-  url: /img/new-avatar.jpg
+  url: /img/avatar.jpg
   # 头像动效，可以取这些值：bounce | revolve | none，默认值是 none。
   effect: revolve
 
@@ -238,7 +244,7 @@ avatar:
 colored_eggs:
   # 看板娘（？）
   # 可以取这些值：santa | natsuki | none，默认值是 none。
-  type: natsuki
+  type: none
   width: 120px                       # 人物大小。
   time: 0.55s                        # 动画时间，仅对 natsuki 有用。
   bezier: cubic-bezier(0, 0, 0, 1)   # 贝塞尔曲线，仅对 natsuki 有用。
@@ -261,7 +267,7 @@ sidebar_num: true
 toolbar_info: true
 
 # 工具栏是否显示第三栏
-toolbar_third: true
+toolbar_third: false
 
 
 
@@ -276,7 +282,7 @@ toolbar_enable: true
 #
 # 博客默认配色
 # 可以取这些值：std | white | night | none，默认值是 std。 "none" 非常特殊。
-color_schemes: white
+color_schemes: night
 
 # 博客默认特殊效果
 # 可以取这些值：none | grayscale | invert | blur，默认值是 none。
@@ -291,7 +297,7 @@ stretch: false
 
 
 # 你的 GitHub 用户名，用于某些链接
-github_name: yz-hs
+github_name: tsxc-github
 
 # 图片背景卡片的高度默认值
 imgcard_h: 30em
@@ -299,10 +305,10 @@ imgcard_h: 30em
 # Jsdelivr 提供的加速 CDN，可选。
 # 对本主题中的 css、js、img、custom 文件夹中的静态资源进行加速。
 # https://cdn.jsdelivr.net/gh/[you]/[yourBlog]
-in_cdn: 
+# in_cdn: https://cdn.jsdelivr.net/gh/tsxc-github/tsxc-github.github.io
 
 # 自我简述
-short_des: "An AFO whker."
+short_des: "AFO，新的开始"
 
 # 背景图片地址
 bg_url: /img/new-bgp.png
@@ -323,6 +329,23 @@ img_default: /img/error.jpg
 toolbar_amount: 7
 
 
+# tag-plugins-plus
+# see https://akilar.top/posts/615e2dec/
+tag_plugins:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  issues: false #issues标签依赖注入开关
+  link:
+    placeholder: /img/link.png #link_card标签默认的图标图片
+  CDN:
+    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
+    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
+    iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
+    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -334,23 +357,41 @@ toolbar_amount: 7
 # 本主题使用的 CDN。
 out_cdn:
   css:
-    katex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.6/katex.min.css
-    gitalk: https://unpkg.com/gitalk/dist/gitalk.css
+    # katex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.6/katex.min.css
+    katex: /cdn/katex.min.css
+    # gitalk: https://unpkg.com/gitalk/dist/gitalk.css
+    gitalk: /cdn/gitalk.css
     googlefont: https://fonts.googleapis.com
-    highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css
+    # highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css
+    highlight: /cdn/vs2015.min.css
     fontawesome: https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css
-    bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css
-    aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
-    tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css
+    # fontawesome: /cdn/font-awesome.css
+    # bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css
+    bootstrap: /cdn/bootstrap.min.css
+    # aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+    aplayer: /cdn/APlayer.min.css
+    # tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css
+    tocbot: /cdn/tocbot.css
   js:
-    jquery: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
-    anime: https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js
-    pjax: https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
-    gitalk: https://unpkg.com/gitalk/dist/gitalk.min.js
-    highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js
-    sweetalert2: https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.17/sweetalert2.all.min.js
-    sketch: https://cdn.staticfile.org/sketch.js/1.0/sketch.min.js
-    bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js
-    aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
-    meting: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
-    tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js
+    # jquery: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
+    jquery: /cdn/jquery.min.js
+    # anime: https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js
+    anime: /cdn/anime.min.js
+    # pjax: https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
+    pjax: /cdn/jquery.pjax.min.js
+    # gitalk: https://unpkg.com/gitalk/dist/gitalk.min.js
+    gitalk: /cdn/gitalk.min.js
+    # highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js
+    highlight: /cdn/highlight.min.js
+    # sweetalert2: https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.17/sweetalert2.all.min.js
+    sweetalert2: /cdn/sweetalert2.all.min.js
+    # sketch: https://cdn.staticfile.org/sketch.js/1.0/sketch.min.js
+    sketch: /cdn/sketch.min.js
+    # bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js
+    bootstrap: /cdn/bootstrap.bundle.min.js
+    # aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+    aplayer: /cdn/APlayer.min.js
+    # meting: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
+    meting: /cdn/Meting.min.js
+    # tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js
+    tocbot: /cdn/tocbot.min.js
