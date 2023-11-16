@@ -92,9 +92,13 @@ comments:
     # loading: lazy
     crossorigin: anonymous
   waline:
-    enable: true
+    enable: false
     serverurl: http://tsxc-home.dns.army:8360
     reaction: true #文章反应，参见https://waline.js.org/guide/features/reaction.html
+  twikoo:
+    enable: true
+    envid: http://tsxc-home.dns.army:8070
+    lang: zh-CN # 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
 
 Pageview_Counter: #浏览量功能
   waline: # 参见https://waline.js.org/guide/features/pageview.html
