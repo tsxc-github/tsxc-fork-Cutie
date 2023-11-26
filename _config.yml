@@ -361,7 +361,7 @@ tag_plugins:
 # 本主题使用的 CDN。
 out_cdn:
   css:
-    # katex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.6/katex.min.css
+    katex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.6/katex.min.css
     # gitalk: https://unpkg.com/gitalk/dist/gitalk.css
     googlefont: https://fonts.googleapis.com
     # highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css
@@ -371,7 +371,7 @@ out_cdn:
     # tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css
 
     # 本地文件，用于自己服务器部署加速或CDN不可用时使用
-    katex: /cdn/katex.min.css
+    # katex: /cdn/katex.min.css
     gitalk: /cdn/gitalk.css
     # googlefont: 
     highlight: /cdn/vs2015.min.css
