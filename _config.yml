@@ -343,12 +343,21 @@ tag_plugins:
   link:
     placeholder: /img/link.png #link_card标签默认的图标图片
   CDN:
-    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
-    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
-    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
-    iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
-    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
-    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+    anima: /cdn/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: /cdn/jquery.min.js #issues标签依赖
+    issues: /cdn/issues.js #issues标签依赖
+    iconfont: /cdn/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
+    carousel: /cdn/carousel-touch.js
+    tag_plugins_css: /cdn/tag_plugins.css
+
+    # 本地文件，用于自己服务器部署加速或CDN不可用时使用
+    # anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
+    # jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
+    # issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
+    # iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
+    # carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    # tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+  
 
 
 
@@ -362,7 +371,7 @@ tag_plugins:
 # 本主题使用的 CDN。
 out_cdn:
   css:
-    katex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.6/katex.min.css
+    # katex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.6/katex.min.css
     # gitalk: https://unpkg.com/gitalk/dist/gitalk.css
     googlefont: https://fonts.googleapis.com
     # highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css
@@ -372,7 +381,7 @@ out_cdn:
     # tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css
 
     # 本地文件，用于自己服务器部署加速或CDN不可用时使用
-    # katex: /cdn/katex.min.css
+    katex: /cdn/katex.min.css
     gitalk: /cdn/gitalk.css
     # googlefont: 
     highlight: /cdn/vs2015.min.css
