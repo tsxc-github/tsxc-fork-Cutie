@@ -16,8 +16,8 @@
 Menu:
   Home: index.html
   Archives: archives/index.html
-  # Tags: tags/index.html
-  # Categories: categories/index.html
+  Tags: tags/index.html
+  Categories: categories/index.html
   # Mood: somepage/mood/index.html
   About: somepage/about/index.html
   # Message_board: somepage/chat/index.html
@@ -197,7 +197,7 @@ excerpt:
 # 位于工具栏。
 
 tag_cloud:
-  enable: false         # 是否启用
+  enable: true         # 是否启用
   color:               # 颜色渐变范围
     from: "#fff"
     to: "#fff"
