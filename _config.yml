@@ -98,12 +98,12 @@ comments:
     reaction: true #文章反应，参见https://waline.js.org/guide/features/reaction.html
   twikoo:
     enable: true
-    envid: http://tsxc-home.dns.army:8070
+    envid: https://server.tsxc.xyz:40064/
     lang: zh-CN # 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
 
 Pageview_Counter: #浏览量功能
   waline: # 参见https://waline.js.org/guide/features/pageview.html
-    enable: true
+    enable: false
     serverurl: http://tsxc-home.dns.army:8360
 
 
@@ -401,6 +401,7 @@ out_cdn:
     # aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
     # meting: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
     # tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js
+    # twikoo: https://cdn.staticfile.net/twikoo/1.6.36/twikoo.all.min.js
 
     # 本地文件，用于自己服务器部署加速或CDN不可用时使用
     jquery: /cdn/jquery.min.js
@@ -414,3 +415,4 @@ out_cdn:
     aplayer: /cdn/APlayer.min.js
     meting: /cdn/Meting.min.js
     tocbot: /cdn/tocbot.min.js
+    twikoo: /cdn/twikoo.all.min.js
