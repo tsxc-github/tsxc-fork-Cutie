@@ -45,7 +45,17 @@
   <link rel="stylesheet" href="<%- theme.out_cdn.css.bootstrap %>">
   <link rel="stylesheet" href="<%- theme.out_cdn.css.tocbot %>">
   <link rel="stylesheet" href="<%- theme.in_cdn %>/css/style.css">
-  <% for (name in theme.fonts) { %>
-     <link href="<%- theme.out_cdn.css.googlefont %>/css?family=<%- theme.fonts[name] %>" rel="stylesheet">
+  <% for (name in theme.fonts.google) { %>
+     <link href="<%- theme.out_cdn.css.googlefont %>/css?family=<%- theme.fonts.google[name] %>" rel="stylesheet">
   <% } %>
+  <style>
+    
+    <% for (name in theme.fonts.custom) { %> 
+      @font-face {
+        font-family: YourCustomFontName;
+        src: url("<%- theme.fonts.custom[name] %>");
+      }
+    <% } %>
+  </style>
+  
 </head>

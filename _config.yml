@@ -202,8 +202,8 @@ tag_cloud:
     from: "#fff"
     to: "#fff"
   font:                # 字体渐变范围（单位 px）
-    from: 14
-    to: 14
+    from: 18
+    to: 18
 
 
 
@@ -211,14 +211,18 @@ tag_cloud:
 #
 # https://fonts.googleapis.com/css?family=...
 
-# 引用的谷歌字体
+
 # 可以有多个。
 fonts:
-  - Montserrat
-  - Roboto+Mono
+  google: # 引用的谷歌字体
+    - Montserrat
+    - Roboto+Mono
+  custom: # 自定义字体，请填入URL
+    - /custom/CEFFontsCJK-Regular.ttf
 
 # 字体家族
-font_family: "Montserrat,'Harmony_Regular',sans-serif"
+# 如有自定义字体，请填入'YourCustomFontName'
+font_family: "'YourCustomFontName'"
 mono_font_family: "'Roboto Mono',sans-serif"
 
 
