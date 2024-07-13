@@ -379,7 +379,7 @@ out_cdn:
     # gitalk: https://unpkg.com/gitalk/dist/gitalk.css
     googlefont: https://fonts.googleapis.com
     # highlight: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/vs2015.min.css
-    fontawesome: https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css
+    # fontawesome: https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css
     # bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css
     # aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
     # tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css
@@ -389,7 +389,7 @@ out_cdn:
     gitalk: /cdn/gitalk.css
     # googlefont: 
     highlight: /cdn/vs2015.min.css
-    # fontawesome: 
+    fontawesome: /cdn/font-awesome/css/font-awesome.css
     bootstrap: /cdn/bootstrap.min.css
     aplayer: /cdn/APlayer.min.css
     tocbot: /cdn/tocbot.css
