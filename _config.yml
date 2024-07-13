@@ -217,12 +217,11 @@ fonts:
   google: # 引用的谷歌字体
     - Montserrat
     - Roboto+Mono
-  custom: # 自定义字体，请填入URL
-    - /custom/CEFFontsCJK-Regular.ttf
+  custom: # 自定义字体，请填入CSS文件的URL
+    - /fonts/CEFFontsCJK-Regular/result.css
 
 # 字体家族
-# 如有自定义字体，请填入'YourCustomFontName'
-font_family: "'YourCustomFontName'"
+font_family: "'CEF Fonts CJK'"
 mono_font_family: "'Roboto Mono',sans-serif"
 
 
