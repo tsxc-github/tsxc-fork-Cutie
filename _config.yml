@@ -215,8 +215,8 @@ tag_cloud:
 # 可以有多个。
 fonts:
   google: # 引用的谷歌字体
-    - Montserrat
-    - Roboto+Mono
+    # - Montserrat
+    # - Roboto+Mono
   custom: # 自定义字体，请填入CSS文件的URL
     - /fonts/CEFFontsCJK-Regular/result.css
 
