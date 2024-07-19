@@ -346,6 +346,7 @@ tag_plugins:
   link:
     placeholder: /img/link.png #link_card标签默认的图标图片
   CDN:
+    # 本地文件，用于自己服务器部署加速或CDN不可用时使用
     anima: /cdn/font-awesome-animation.min.css #动画标签anima的依赖
     jquery: /cdn/jquery.min.js #issues标签依赖
     issues: /cdn/issues.js #issues标签依赖
@@ -353,7 +354,6 @@ tag_plugins:
     carousel: /cdn/carousel-touch.js
     tag_plugins_css: /cdn/tag_plugins.css
 
-    # 本地文件，用于自己服务器部署加速或CDN不可用时使用
     # anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
     # jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
     # issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
