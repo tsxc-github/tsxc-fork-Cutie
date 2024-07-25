@@ -141,10 +141,10 @@ toolbar_width:
 # V 首页提示
 
 site_info:
-  enable: root   # 可以取这些值：none | root | all。默认值是 none。
+  enable: none   # 可以取这些值：none | root | all。默认值是 none。
                  # root：只会在博客首页显示；
                  # all：在所有页面显示。
-  text: <i class='fa fa-volume-up'></i> 本博客更改评论系统为 Giscus。 # "<i class='fa fa-volume-up'></i> 欢迎来到 Yurchiu 的博客！希望我们能相互交流，共同进步～"
+  text: "<i class='fa fa-volume-up'></i> 欢迎来到 Yurchiu 的博客！希望我们能相互交流，共同进步～"
   type: info  # 可以取这些值：danger | warning | info | success。
 
 
