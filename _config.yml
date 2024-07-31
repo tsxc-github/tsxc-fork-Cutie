@@ -98,7 +98,7 @@ comments:
   # https://waline.js.org/
   waline:
     enable: false
-    serverurl: http://tsxc-home.dns.army:8360
+    serverurl: http://192.168.0.33:8360
     reaction: true # 文章反应，参见 https://waline.js.org/guide/features/reaction.html
     emoji: false # 自定义评论输入框的表情，参见 https://waline.js.org/guide/features/emoji.html
     lang: zh-CN # 用于手动设定评论区语言，支持的语言列表 https://waline.js.org/guide/features/i18n.html
@@ -122,9 +122,10 @@ pageview:
   # https://waline.js.org/
   waline: # 参见https://waline.js.org/guide/features/pageview.html
     enable: false
-    serverurl: http://tsxc-home.dns.army:8360
+    serverurl: http://192.168.0.33:8360
 
   # 不蒜子 浏览量功能
+  # https://busuanzi.ibruce.info/
   busuanzi: 
     enable: true
 
@@ -416,7 +417,7 @@ out_cdn:
     bootstrap: /cdn/bootstrap.min.css
     aplayer: /cdn/APlayer.min.css
     tocbot: /cdn/tocbot.css
-    waline_comment: waline.css
+    waline_comment: /cdn/waline.css
 
   js:
     # jquery: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
@@ -448,6 +449,6 @@ out_cdn:
     meting: /cdn/Meting.min.js
     tocbot: /cdn/tocbot.min.js
     twikoo: /cdn/twikoo.all.min.js
-    waline-comment: /cdn/waline.js
-    waline-pageview: /cdn/pageview.js
+    waline_comment: /cdn/waline.js
+    waline_pageview: /cdn/pageview.js
     busuanzi: /cdn/busuanzi.pure.mini.js
