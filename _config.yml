@@ -23,6 +23,7 @@ Menu:
   # Message_board: somepage/chat/index.html
   Links: somepage/link/index.html
   Settings: somepage/settings/index.html
+  Link: link/index.html
 
 # 搜索页面的链接。
 Search: somepage/search/index.html
