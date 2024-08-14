@@ -430,6 +430,7 @@ out_cdn:
     # sketch: https://cdn.staticfile.org/sketch.js/1.0/sketch.min.js
     # bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js
     # aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+    # meting_v1_2: https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js
     # meting: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
     # tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js
     # twikoo: https://cdn.staticfile.net/twikoo/1.6.38/twikoo.all.min.js
@@ -447,7 +448,8 @@ out_cdn:
     sketch: /cdn/sketch.min.js
     bootstrap: /cdn/bootstrap.bundle.min.js
     aplayer: /cdn/APlayer.min.js
-    meting: /cdn/Meting.min.js
+    meting_v1_2: /cdn/MetingJS/v1.2/Meting.min.js
+    meting: /cdn/MetingJS/v2.0.1/Meting.min.js
     tocbot: /cdn/tocbot.min.js
     twikoo: /cdn/twikoo.all.min.js
     waline_comment: /cdn/waline.js
