@@ -177,7 +177,7 @@ site_info:
 # VII 版权信息
 
 footer:          # 页脚版权信息。
-  left: '©2023-2024 <a href="https://github.com/tsxc-github">tsxc</a>. All rights reserved.'
+  left: '©2023-2025 <a href="https://github.com/tsxc-github">tsxc</a>. All rights reserved.'
                  # 请勿修改 right。如果是根据本主题进行二创主题，那么请
                  # 注明是由本主题修改而成。此条件下可以修改 right。
                  # 本主题采用 MIT 许可协议。
