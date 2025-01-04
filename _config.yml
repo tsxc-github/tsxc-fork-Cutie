@@ -152,8 +152,8 @@ sidebar_footer_margin: 8
 
 # 设定前两个阶段工具栏的宽度。
 toolbar_width:
-  width_1: 220
-  width_2: 220
+  width_1: 260
+  width_2: 260
 
 
 
