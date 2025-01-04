@@ -433,7 +433,7 @@ out_cdn:
     # meting_v1_2: https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js
     # meting: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
     # tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js
-    # twikoo: https://cdn.staticfile.net/twikoo/1.6.38/twikoo.all.min.js
+    # twikoo: https://cdn.staticfile.net/twikoo/1.6.40/twikoo.all.min.js
     # waline_comment: https://unpkg.com/@waline/client@v3/dist/waline.js
     # waline_pageview: https://unpkg.com/@waline/client@v3/dist/pageview.js
     # busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
