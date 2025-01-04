@@ -21,12 +21,14 @@
     <% }if(page.password){ %>
       <span><i class="fa fa-lock"></i> <%- __('Posts.Password') %></span>
     <% } %>
+    
     <span class="hideBars" onclick="hideBars()"><i class="fa fa-eye-slash"></i>
       <%- __('Hide') %>
     </span>
     <span class="showBars" onclick="showBars()"><i class="fa fa-eye"></i>
       <%- __('Show') %>
     </span>
+    
   </div>
 </div>
 <div class="breadcrumb">
@@ -43,7 +45,7 @@
   </div>
 </div>
 <% if(page.bgimg) { %>
-<div class="post-bgimg-item" style="background-image: url(<%- page.bgimg %>);
+<div class="in-post-bgimg-item" style="background-image: url(<%- page.bgimg %>);
   height: 
     <% if(page.height){ %>
       <%- page.height %>

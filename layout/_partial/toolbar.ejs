@@ -104,18 +104,19 @@
   <div class="item">
     <div class="title"><%- __('Info.name') %></div>
     <div class="list-group">
+
       <div class="list-group-item"><div><i class="fa fa-file-text-o fa-fw"></i>
         <%- __('Info.count') %></div><div class="badge"><%- site.posts.length %></div>
       </div>
+
       <div class="list-group-item"><div><i class="fa fa-refresh fa-fw"></i>
         <%- __('Info.update') %></div><div class="badge"><%- date(page.updated, "MM-DD") %></div>
       </div>
+
       <div class="list-group-item"><div><i class="fa fa-font fa-fw"></i>
         <%- __('Info.words') %></div><div class="badge"><%- totalcount(site) %></span></div>
       </div>
-
       <% if(theme.pageview.busuanzi.enable) { %>
-        
         <div class="list-group-item"><div><i class="fa fa-book fa-fw"></i>
           <% if(is_home()) { %>
             <!--全站浏览量-->
@@ -125,9 +126,7 @@
               <%- __('Info.post_view') %></div><div class="badge"><span id="busuanzi_value_page_pv"></span></div>
           <% } %>
         </div>
-        
       <% } %>
-
     </div>
   </div><% } %>
 
