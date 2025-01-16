@@ -46,14 +46,11 @@
   <% for (name in theme.fonts.google) { %>
      <link href="<%- theme.out_cdn.css.googlefont %>/css?family=<%- theme.fonts.google[name] %>" rel="stylesheet">
   <% } %>
+  
   <style>
-    
-    <% for (name in theme.fonts.custom) { %> 
-      @font-face {
-        font-family: YourCustomFontName;
-        src: url("<%- theme.fonts.custom[name] %>");
-      }
-    <% } %>
+  <% for (name in theme.fonts.custom) { %> 
+    @import url("<%- theme.fonts.custom[name] %>");
+  <% } %>
   </style>
   
 </head>
