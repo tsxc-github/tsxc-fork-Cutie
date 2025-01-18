@@ -1,2 +1,5 @@
 *.webp
 *.avif
+\source\fonts\CEFFontsCJK-Regular\*
+!\source\fonts\CEFFontsCJK-Regular\*.woff2
+!\source\fonts\CEFFontsCJK-Regular\*.css
