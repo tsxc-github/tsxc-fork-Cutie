@@ -59,7 +59,7 @@ async function bszGet() {
     });
 }
 
-$(document).on("pjax:end", function () {
+$(document).on("pjax:complete", function () {
   bszGet();
 });
 
