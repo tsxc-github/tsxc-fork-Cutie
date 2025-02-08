@@ -1,8 +1,9 @@
 // 根据不算子官方js实现进行修改，以支持pjax
 // 这玩意看起来很恼火，之后有时间再重构吧，咕咕咕~
-var bszCaller, bszTag;
-function bszGet() {
-  ready = function (c) {
+let bszCaller, bszTag;
+
+async function bszGet() {
+  let ready = function (c) {
     return c.call(document), this;
   };
   (bszCaller = {
