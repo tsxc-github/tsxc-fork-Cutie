@@ -171,11 +171,11 @@ site_info:
 # VII 版权信息
 
 footer:          # 页脚版权信息。
-  left: '©2023-2025 <a href="https://github.com/tsxc-github">星澜曦光</a>. All rights reserved.'
+  left: '©2023-2025 <a href="https://github.com/tsxc-github">星澜曦光</a>. All rights reserved.<br>Theme <a href="https://github.com/yz-hs/cutie">Cutie</a>, by Yurchiu.'
                  # 请勿修改 right。如果是根据本主题进行二创主题，那么请
                  # 注明是由本主题修改而成。此条件下可以修改 right。
                  # 本主题采用 MIT 许可协议。
-  right: '<a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2025139897号</a> Theme <a href="https://github.com/yz-hs/cutie">Cutie</a>, by Yurchiu.'
+  right: '<a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2025139897号</a><br> <img src="/img/beian.png" width="20" height="20" style="display:inline-block"><a href="https://beian.mps.gov.cn/#/query/webSearch?code=51070002110090" rel="noreferrer" target="_blank">川公网安备51070002110090号</a>'
 
 copyright:       # 文末版权信息。
   enable: post   # 可以取这些值：all | post | disable。默认值是 disable。
